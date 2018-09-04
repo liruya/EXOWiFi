@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiCircleProgress">
+        <attr name="circleCount" format="integer"/>
+        <attr name="startAngle" format="integer"/>
+        <attr name="sweepAngle" format="integer"/>
+        <attr name="progress" format="integer"/>
+        <attr name="max" format="integer"/>
+        <attr name="circleBackgroundColor" format="color|reference"/>
+        <attr name="circleWidth" format="dimension|reference"/>
+        <attr name="dividerWidth" format="dimension|reference"/>
+        <attr name="circleColor" format="color"/>
+        <attr name="dividerColor" format="color|reference"/>
+        <attr name="centerText" format="string|reference"/>
+        <attr name="centerTextColor" format="color|reference"/>
+        <attr name="centerTextSize" format="dimension|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="MultiPointSeekbar">
+        <attr name="minWidth" format="dimension"/>
+        <attr name="minHeight" format="dimension"/>
+        <attr name="maxWidth" format="dimension"/>
+        <attr name="maxHeight" format="dimension"/>
+        <attr name="pointCount" format="integer"/>
+        <attr name="lineColor" format="color|reference"/>
+        <attr name="thumbDrawable" format="reference"/>
+        <attr name="selectedThumDrawable" format="reference"/>
+        <attr name="thumbDrawableTint" format="integer"/>
+        <attr name="thumbDrawableTintMode" format="integer"/>
+        <attr name="thumbColor" format="color|reference"/>
+        <attr name="selectedThumbColor" format="color|reference"/>
+        <attr name="maximum" format="integer"/>
+        <attr name="minimum" format="integer"/>
+        <attr name="hintMode" format="enum">
+            <enum name="hide" value="0"/>
+            <enum name="moving" value="1"/>
+            <enum name="selected" value="2"/>
+        </attr>
+        <attr name="hintBackgroundColor" format="color|reference"/>
+        <attr name="maxLengthHint" format="string|reference"/>
+        <attr name="hintSize" format="dimension"/>
+        <attr name="hintColor" format="color|reference"/>
+        <attr name="hintPadding" format="dimension"/>
+        <attr name="indicatorType">
+            <enum name="none" value="0"/>
+            <enum name="dropwater" value="1"/>
+            <enum name="rectangle" value="2"/>
+            <enum name="round_rectangle" value="3"/>
+        </attr>
+        <attr name="indicatorEnabled" format="boolean"/>
+        <attr name="indicatorAlwaysShow" format="boolean"/>
+    </declare-styleable>
+
+    <!--<declare-styleable name="SeekbarIndicator">-->
+        <!--<attr name="indicatorColor" format="color"/>-->
+        <!--<attr name="indicatorText" format="string"/>-->
+        <!--<attr name="indicatorTextSize" format="dimension"/>-->
+        <!--<attr name="indicatorTextColor" format="color"/>-->
+        <!--<attr name="indicatorType">-->
+            <!--<enum name="none" value="0"/>-->
+            <!--<enum name="waterdrop" value="1"/>-->
+            <!--<enum name="rectangle" value="2"/>-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+</resources>

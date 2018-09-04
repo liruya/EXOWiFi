@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="color_names" translatable="false">
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Cyan</item>
+        <item>Pink</item>
+        <item>ColdWhite</item>
+        <item>WarmWhite</item>
+        <item>PureWhite</item>
+        <item>Teal</item>
+        <item>Gray</item>
+        <item>Grey</item>
+    </string-array>
+    <integer-array name="color_values">
+        <item>0xFFFFFFFF</item>
+        <item>0xFFD50000</item>
+        <item>0xFF00C853</item>
+        <item>0xFF2962FF</item>
+        <item>0xFFAA00FF</item>
+        <item>0xFF00B8D4</item>
+        <item>0xFFC51162</item>
+        <item>0xFFC3C9FF</item>
+        <item>0xFFFFB969</item>
+        <item>0xFFFFFFFF</item>
+        <item>0xFF00BFA5</item>
+        <item>0xFF9E9E9E</item>
+        <item>0xFF9E9E9E</item>
+        <!--<item name="white">0xFFFFFFFF</item>-->
+        <!--<item name="red">0xFFD50000</item>-->
+        <!--<item name="green">0xFF00C853</item>-->
+        <!--<item name="blue">0xFF2962FF</item>-->
+        <!--<item name="purple">0xFFAA00FF</item>-->
+        <!--<item name="cyan">0xFF00B8D4</item>-->
+        <!--<item name="pink">0xFFC51162</item>-->
+        <!--<item name="coldwhite">0xFFC3C9FF</item>-->
+        <!--<item name="warmwhite">0xFFFFB969</item>-->
+        <!--<item name="purewhite">0xFFFFFFFF</item>-->
+        <!--<item name="teal">0xFF00BFA5</item>-->
+        <!--<item name="gray">0xFF9E9E9E</item>-->
+    </integer-array>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+              android:gravity="center"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/menu_item_control_cloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/colorTransparent"
+        app:srcCompat="@drawable/ic_cloud_white_24dp"
+        android:tint="@color/selector_green_gray"/>
+
+    <android.support.design.widget.CheckableImageButton
+        android:id="@+id/menu_item_control_local"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/colorTransparent"
+        app:srcCompat="@drawable/ic_wifi_white_24dp"
+        android:tint="@color/selector_green_gray"/>
+</LinearLayout>

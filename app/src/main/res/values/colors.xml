@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorRed">#FFD50000</color>
+    <color name="colorGreen">#FF00C853</color>
+    <color name="colorBlue">#FF2962FF</color>
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorGray">#FF9E9E9E</color>
+    <color name="colorDarkGray">#FF424242</color>
+    <color name="colorOrange">#FFFF6d00</color>
+    <color name="colorPink">#FFC51162</color>
+    <color name="colorPurple">#FFAA00FF</color>
+    <color name="colorCyan">#FF00B8D4</color>
+    <color name="colorTeal">#FF00BFA5</color>
+    <color name="colorWarmWhite">#FFFFB969</color>
+    <color name="colorColdWhite">#FFC3C9FF</color>
+    <color name="colorPureWhite">#FFFFFFFF</color>
+
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorBackground">#29366A</color>
+    <color name="colorTextPrimary">#FFFFFF</color>
+    <color name="colorTextSecond">#E0E0E0</color>
+    <color name="colorWindowBackgroud">#2B386D</color>
+    <color name="colorToolbarBackgroud">#3F51B5</color>
+    <color name="colorNavigationBackground">#3F51B5</color>
+</resources>

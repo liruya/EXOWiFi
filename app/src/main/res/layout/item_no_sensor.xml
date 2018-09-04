@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/item_nosensor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_sensor_detected"
+            android:textSize="28sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""/>
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="3"-->
+        <!--android:gravity="center_vertical|right"-->
+        <!--android:orientation="vertical"-->
+        <!--android:padding="8dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/item_thermostat_set"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:drawableRight="@drawable/ic_slider_white_24dp"-->
+            <!--android:text="@string/turnon_temp"/>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginTop="8dp">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/item_thermostat_day"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:gravity="center"-->
+                <!--android:drawableLeft="@drawable/ic_sun_white_24dp"-->
+                <!--android:text="xx.x ℃"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/item_thermostat_night"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_marginLeft="8dp"-->
+                <!--android:layout_marginRight="8dp"-->
+                <!--android:gravity="center"-->
+                <!--android:visibility="visible"-->
+                <!--android:drawableLeft="@drawable/ic_moon_white_24dp"-->
+                <!--android:text="xx.x ℃"/>-->
+
+        <!--</LinearLayout>-->
+
+    <!--</LinearLayout>-->
+
+</LinearLayout>

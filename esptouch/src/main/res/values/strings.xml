@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">EspTouch</string>
+    <string name="start">Start</string>
+    <string name="ssid">Ssid</string>
+    <string name="password">Password</string>
+    <string name="no_wifi_connected">No wifi connected</string>
+
+</resources>

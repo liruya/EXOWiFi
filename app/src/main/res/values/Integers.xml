@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="white">0xFFFFFFFF</integer>
+    <integer name="red">0xFFD50000</integer>
+    <integer name="green">0xFF00C853</integer>
+    <integer name="blue">0xFF2962FF</integer>
+    <integer name="purple">0xFFAA00FF</integer>
+    <integer name="cyan">0xFF00B8D4</integer>
+    <integer name="pink">0xFFC51162</integer>
+    <integer name="coldwhite">0xFFC3C9FF</integer>
+    <integer name="warmwhite">0xFFFFB969</integer>
+    <integer name="purewhite">0xFFFFFFFF</integer>
+    <integer name="teal">0xFF00BFA5</integer>
+    <integer name="gray">0xFF9E9E9E</integer>
+</resources>
