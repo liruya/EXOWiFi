@@ -38,7 +38,10 @@ public class DevicelistPresenter extends BasePresenter<IDevicelistView >
             @Override
             public void onDeviceStateChanged( XDevice xDevice, XDevice.State state )
             {
-                DeviceManager.getInstance().updateDevice( xDevice );
+                if (DeviceManager.getInstance().contains(xDevice))
+                {
+                    DeviceManager.getInstance().updateDevice( xDevice );
+                }
                 switch ( state )
                 {
                     case DISCONNECTED:

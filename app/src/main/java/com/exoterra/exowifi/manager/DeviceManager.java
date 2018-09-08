@@ -66,7 +66,7 @@ public class DeviceManager
     {
         if ( key != null )
         {
-            if ( mSubcribedDevices.keySet().contains( key ) )
+            if ( mSubcribedDevices.containsKey( key ) )
             {
                 mSubcribedDevices.remove( key );
             }
@@ -96,16 +96,16 @@ public class DeviceManager
         mSubcribedDevices.clear();
     }
 
-    private boolean contains( String key )
+    public boolean contains( String key )
     {
         if ( key != null )
         {
-            return mSubcribedDevices.keySet().contains( key );
+            return mSubcribedDevices.containsKey( key );
         }
         return false;
     }
 
-    private boolean contains( XDevice device )
+    public boolean contains( XDevice device )
     {
         if ( device != null )
         {
@@ -115,7 +115,7 @@ public class DeviceManager
         return false;
     }
 
-    private boolean contains( Device device )
+    public boolean contains( Device device )
     {
         if ( device != null )
         {
@@ -127,7 +127,7 @@ public class DeviceManager
 
     public Device getDevice( @NonNull String key )
     {
-        if ( TextUtils.isEmpty( key ) || !mSubcribedDevices.keySet().contains( key ) )
+        if ( TextUtils.isEmpty( key ) || !mSubcribedDevices.containsKey( key ) )
         {
             return null;
         }
@@ -200,6 +200,7 @@ public class DeviceManager
                 }
                 else
                 {
+                    mSubcribedDevices.clear();
                     Set<String> keys = new HashSet<>();
                     for ( XDevice device : xDevices )
                     {
@@ -210,13 +211,6 @@ public class DeviceManager
                                 keys.add( device.getMacAddress() );
                                 updateDevice( device );
                             }
-                        }
-                    }
-                    for ( String key : mSubcribedDevices.keySet() )
-                    {
-                        if ( !keys.contains( key ) )
-                        {
-                            removeDevice( key );
                         }
                     }
                 }
